@@ -17,6 +17,7 @@
 body {
   font-family: "Roboto", sans-serif;
   color: var(--main-txt-color);
+  letter-spacing: 0.02em;
 }
 .list {
   list-style-type: none;
@@ -25,6 +26,7 @@ body {
 .title {
   font-size: 36px;
   line-height: calc(40 / 36);
+  text-align: center;
   color: var(--dark-theme-color);
 }
 .subtitle {
@@ -39,6 +41,9 @@ body {
 }
 .link {
   text-decoration: none;
+  font-size: 16px;
+  line-height: calc(24 / 16);
+  letter-spacing: 0.02em;
   color: var(--dark-theme-color);
 }
 .link:hover,
@@ -50,6 +55,7 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: calc(24 / 16);
+  letter-spacing: 0.04em;
   color: var(--hero-txt-color);
   background-color: var(--main-link-color);
 }
@@ -89,10 +95,11 @@ body {
 }
 
 .nav-logo {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: calc(24 / 18);
+  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 .nav-logo:hover {
@@ -136,6 +143,7 @@ body {
   font-size: 56px;
   line-height: calc(60 / 56);
   color: var(--hero-txt-color);
+  text-align: center;
 }
 
 .btn-order {
@@ -205,9 +213,11 @@ body {
 .footer-nav-logo,
 .footer-nav-logo:hover,
 .footer-nav-logo:focus {
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: calc(21 / 18);
+  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--light-theme-color);
 }
